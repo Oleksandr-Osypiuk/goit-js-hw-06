@@ -10,7 +10,7 @@ const ingredients = [
 const ingredientsId = document.getElementById("ingredients");
 for (let item of ingredients) {
   let elLi = document.createElement("li");
-  elLi.insertAdjacentHTML("beforeend", item);
-  elLi.classList += "item";
+  ingredientsId.append(elLi);
+  elLi.textContent = item;
   console.log(elLi)
 }
