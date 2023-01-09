@@ -20,4 +20,3 @@ for (let image of images) {
   myImg += img;
 }
 gallery.insertAdjacentHTML("beforeend", myImg);
-console.log(myImg)

@@ -12,5 +12,4 @@ for (let item of ingredients) {
   let elLi = document.createElement("li");
   ingredientsId.append(elLi);
   elLi.textContent = item;
-  console.log(elLi)
 }
